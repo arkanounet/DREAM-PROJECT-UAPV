@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DREAM — Digital Romanticism</title>
+
+<!--
+  ==========================================================================
+  DREAM — page d'accueil thématique (version enrichie)
+  --------------------------------------------------------------------------
+  Portage Astro suggéré :
+    - <section class="hero">           -> Hero.astro
+    - #overlay / #panel                -> ThemePanel.astro (island interactif)
+    - poets / themes / glossary (JS)   -> content collections ou JSON importé
+    - functions.php                    -> backend WordPress séparé
+      (si tu restes sur Astro plutôt que WordPress, remplace les appels
+      fetch('/wp-admin/admin-ajax.php') de script.js par tes propres
+      endpoints, ex. /api/reviews avec un adapter serveur Astro).
+  ==========================================================================
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section class="hero" id="hero">
+  <div class="sky-photo" id="skyPhoto"></div>
+  <div class="sky-overlay"></div>
+
+  <div class="hero-chrome">
+    <div class="wordmark">DREAM<small>Échanges · Adaptations · Médiations</small></div>
+    <div class="nav-actions">
+      <button class="pill-btn" id="navAuthors">Tous les auteurs</button>
+    </div>
+    <div class="hero-title">
+      <h1>DREAM</h1>
+      <p>Digital Romanticism — un ciel commun pour deux littératures</p>
+    </div>
+    <div class="hero-hint">Déplacez le curseur — cliquez sur une étoile</div>
+  </div>
+
+  <!-- Les étoiles thématiques sont injectées en JS depuis l'objet `themes` -->
+</section>
+
+<div class="overlay" id="overlay"></div>
+<div class="panel" id="panel">
+  <button class="panel-close" id="panelClose" aria-label="Fermer">✕</button>
+  <div class="panel-content" id="panelBody"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
