@@ -275,6 +275,43 @@ button{ font-family:inherit; }
 }
 .poem-head .status{ font-size:0.72rem; letter-spacing:0.05em; color:var(--paper-faint); font-style:italic; }
 
+/* ---- fiche œuvre : poème complet + commentaire, dans .who ---- */
+.work-card .poem-head{ cursor:default; display:block; }
+.poem-head .who.poem-full{ font-style:normal; font-size:1rem; display:block; }
+.poem-full .poem-title-row{
+  display:flex; align-items:baseline; gap:0.7rem; flex-wrap:wrap;
+  font-family:var(--font-display); font-style:italic; font-size:1.4rem; color:var(--gold-bright);
+}
+.poem-full .poem-year{
+  font-family:var(--font-body); font-style:normal; font-size:0.7rem;
+  letter-spacing:0.06em; text-transform:uppercase; color:var(--paper-faint);
+}
+.poem-full .poem-subtitle{
+  font-family:var(--font-body); font-style:italic; font-size:0.85rem;
+  color:var(--paper-faint); margin-top:0.25rem;
+}
+.poem-full .poem-verse{
+  white-space:pre-wrap;
+  font-family:var(--font-display); font-style:italic;
+  font-size:1.08rem; line-height:1.9;
+  color:var(--paper); margin:1.3rem 0;
+}
+.poem-full .poem-commentary{
+  margin-top:1.3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+}
+.poem-full .poem-commentary-label{
+  display:block; font-family:var(--font-body); font-style:normal;
+  font-size:0.7rem; letter-spacing:0.08em; text-transform:uppercase;
+  color:var(--gold); margin-bottom:0.6rem;
+}
+.poem-full .poem-commentary p{
+  font-family:var(--font-body); font-style:normal;
+  font-size:0.95rem; line-height:1.75; color:var(--paper-soft); margin:0;
+}
+.poem-full .poem-source{
+  margin-top:0.9rem; font-size:0.72rem; font-style:italic; color:var(--paper-faint);
+}
+
 .bio-drawer{
   max-height:0; overflow:hidden;
   transition:max-height .5s var(--ease-out), opacity .4s ease, margin .4s ease;

@@ -56,7 +56,66 @@ const poets = [
   {id:'edgeworth', name:'Maria Edgeworth', lang:'en', born:1768, died:1849,
    bio:"Romancière irlandaise, pionnière du roman régionaliste et de la littérature pour enfants à visée éducative."},
   {id:'keats', name:'John Keats', lang:'en', born:1795, died:1821,
-   bio:"Mort à 25 ans, il laisse une œuvre d'une intensité rare sur la beauté, la mortalité et l'art, dont ses grandes odes."},
+   bio:"Mort à 25 ans, il laisse une œuvre d'une intensité rare sur la beauté, la mortalité et l'art, dont ses grandes odes.",
+   works: [
+  {
+    "id": "keats-chapman",
+    "title": "On First Looking into Chapman’s Homer",
+    "year": 1816,
+    "source": "Poetry Foundation",
+    "text": "Much have I travell'd in the realms of gold,\nAnd many goodly states and kingdoms seen;\nRound many western islands have I been\nWhich bards in fealty to Apollo hold.\nOft of one wide expanse had I been told\nThat deep-brow'd Homer ruled as his demesne;\nYet did I never breathe its pure serene\nTill I heard Chapman speak out loud and bold:\nThen felt I like some watcher of the skies\nWhen a new planet swims into his ken;\nOr like stout Cortez when with eagle eyes\nHe star'd at the Pacific—and all his men\nLook'd at each other with a wild surmise—\nSilent, upon a peak in Darien.",
+    "commentary": "Keats écrivit ce sonnet, sa première œuvre majeure, en octobre 1816, après avoir passé toute la nuit avec son ami Charles Cowden Clarke à lire les traductions de l’Iliade et de l’Odyssée réalisées par George Chapman. Keats a, comme on le sait, écrit ce poème en quelques heures seulement ; il y compare la découverte littéraire que procure la lecture à la crainte mêlée d’admiration que devaient ressentir les explorateurs du Nouveau Monde. Ce faisant, fit remarquer Tennyson plus tard, Keats a peut-être confondu les faits : c’est Balboa, et non Cortés, qui fut le premier Européen à apercevoir le Pacifique. D’autres critiques ont avancé que Keats n’avait peut-être pas l’intention de nommer le premier, mais plutôt ses disciples — tout comme Chapman suit Homère. Quoi qu’il en soit, ce qui a attiré Keats chez Chapman, ce n’était pas la sophistication ou la précision des traductions, mais leur immédiateté, ce que Keats saisit si bien dans le cadre rigoureux de ce sonnet pétrarquien. Dans son sestet final, il passe des livres dorés et des « beaux royaumes » au silence sublime."
+  },
+  {
+    "id": "keats-elgin",
+    "title": "On Seeing the Elgin Marbles",
+    "year": 1817,
+    "source": "Poetry Foundation",
+    "text": "My spirit is too weak—mortality\n   Weighs heavily on me like unwilling sleep,\n   And each imagined pinnacle and steep\nOf godlike hardship tells me I must die\nLike a sick eagle looking at the sky.\n   Yet 'tis a gentle luxury to weep\n   That I have not the cloudy winds to keep\nFresh for the opening of the morning's eye.\nSuch dim-conceived glories of the brain\n   Bring round the heart an undescribable feud;\nSo do these wonders a most dizzy pain,\n   That mingles Grecian grandeur with the rude\nWasting of old time—with a billowy main—\n   A sun—a shadow of a magnitude.",
+    "commentary": "Autre sonnet ekphrastique, ce poème de 1817 est, à bien des égards, le reflet de « Chapman's Homer », son « ombre » plus sombre. Loin de susciter l'émerveillement, la rencontre avec la « grandeur grecque » produit ici quelque chose d'effrayant : un sentiment de sa propre « mortalité », un mot qui « pèse lourdement » sur le premier vers du poème, marqué par un enjambement marqué. Le vertige, ou cette « douleur étourdissante », qui naît de l'aperçu de l'immensité de l'histoire, était l'un des thèmes majeurs de Keats, un sujet auquel il se confrontait poème après poème. Ici, il décrit la « querelle » comme opposant « le cerveau » (qui anticipe la mort) et « le cœur » (qui recule devant son horreur). Dans cet affrontement, c'est le cœur qui l'emporte : Keats n'avance ici aucune théorie, ne trouve aucun rempart contre la confusion, et ses derniers vers s'effondrent dans le désespoir, leur syntaxe se décomposant."
+  },
+  {
+    "id": "keats-endymion",
+    "title": "Endymion",
+    "subtitle": "extrait — Livre I, « A Poetic Romance »",
+    "year": 1818,
+    "source": "Poetry Foundation",
+    "text": "A thing of beauty is a joy for ever:\nIts loveliness increases; it will never\nPass into nothingness; but still will keep\nA bower quiet for us, and a sleep\nFull of sweet dreams, and health, and quiet breathing.\nTherefore, on every morrow, are we wreathing\nA flowery band to bind us to the earth,\nSpite of despondence, of the inhuman dearth\nOf noble natures, of the gloomy days,\nOf all the unhealthy and o'er-darkened ways\nMade for our searching: yes, in spite of all,\nSome shape of beauty moves away the pall\nFrom our dark spirits. Such the sun, the moon,\nTrees old and young, sprouting a shady boon\nFor simple sheep; and such are daffodils\nWith the green world they live in; and clear rills\nThat for themselves a cooling covert make\n'Gainst the hot season; the mid forest brake,\nRich with a sprinkling of fair musk-rose blooms:\nAnd such too is the grandeur of the dooms\nWe have imagined for the mighty dead;\nAll lovely tales that we have heard or read:\nAn endless fountain of immortal drink,\nPouring unto us from the heaven's brink.\n       Nor do we merely feel these essences\nFor one short hour; no, even as the trees\nThat whisper round a temple become soon\nDear as the temple's self, so does the moon,\nThe passion poesy, glories infinite,\nHaunt us till they become a cheering light\nUnto our souls, and bound to us so fast,\nThat, whether there be shine, or gloom o'ercast;\nThey always must be with us, or we die.\n       Therefore, 'tis with full happiness that I\nWill trace the story of Endymion.\nThe very music of the name has gone\nInto my being, and each pleasant scene\nIs growing fresh before me as the green\nOf our own valleys: so I will begin\nNow while I cannot hear the city's din;\nNow while the early budders are just new,\nAnd run in mazes of the youngest hue\nAbout old forests; while the willow trails\nIts delicate amber; and the dairy pails\nBring home increase of milk. And, as the year\nGrows lush in juicy stalks, I'll smoothly steer\nMy little boat, for many quiet hours,\nWith streams that deepen freshly into bowers.\nMany and many a verse I hope to write,\nBefore the daisies, vermeil rimm'd and white,\nHide in deep herbage; and ere yet the bees\nHum about globes of clover and sweet peas,\nI must be near the middle of my story.\nO may no wintry season, bare and hoary,\nSee it half finish'd: but let Autumn bold,\nWith universal tinge of sober gold,\nBe all about me when I make an end.\nAnd now, at once adventuresome, I send\nMy herald thought into a wilderness:\nThere let its trumpet blow, and quickly dress\nMy uncertain path with green, that I may speed\nEasily onward, thorough flowers and weed.",
+    "commentary": "Bien qu'on se souvienne surtout de lui pour ses textes courts, Keats était fasciné par le genre épique. Pendant ses années d'études, il s'est formé à l'art poétique en traduisant l'Énéide, et il a continué à écrire des œuvres plus longues tout au long de sa brève carrière, des poèmes aussi variés que « Hyperion », « Lamia » et « La Veille de la Sainte-Agnès ». Avec ses 4 000 vers, Endymion était son œuvre la plus longue et l'un des trois seuls livres publiés de son vivant. Il fut, comme on le sait, violemment descendu par la critique, à tel point que les amis de Keats et ses confrères poètes romantiques, tels que Byron et Shelley, affirmèrent que Keats avait été tué par des critiques malveillantes. Dans ce bref extrait du début du poème de 1818, vous comprendrez peut-être pourquoi : par moments, sa « beauté s'intensifie » au point de distraire le lecteur. Mais dans l'ouverture épigrammatique et dans les enjambements radicaux de ses couplets héroïques, on voit également Keats affiner les outils qu'il utilisera dans ses poèmes les plus magistraux. Lorsqu'il annonce ici son projet « J'envoie / Ma pensée héraut dans le désert », écrit-il : on perçoit non seulement son ambition et son appréhension, mais aussi la grandeur qui l'attend."
+  },
+  {
+    "id": "keats-grecian-urn",
+    "title": "Ode on a Grecian Urn",
+    "year": 1819,
+    "source": "Poetry Foundation",
+    "text": "Thou still unravish'd bride of quietness,\n       Thou foster-child of silence and slow time,\nSylvan historian, who canst thus express\n       A flowery tale more sweetly than our rhyme:\nWhat leaf-fring'd legend haunts about thy shape\n       Of deities or mortals, or of both,\n               In Tempe or the dales of Arcady?\n       What men or gods are these? What maidens loth?\nWhat mad pursuit? What struggle to escape?\n               What pipes and timbrels? What wild ecstasy?\nHeard melodies are sweet, but those unheard\n       Are sweeter; therefore, ye soft pipes, play on;\nNot to the sensual ear, but, more endear'd,\n       Pipe to the spirit ditties of no tone:\nFair youth, beneath the trees, thou canst not leave\n       Thy song, nor ever can those trees be bare;\n               Bold Lover, never, never canst thou kiss,\nThough winning near the goal yet, do not grieve;\n       She cannot fade, though thou hast not thy bliss,\n               For ever wilt thou love, and she be fair!\nAh, happy, happy boughs! that cannot shed\n         Your leaves, nor ever bid the Spring adieu;\nAnd, happy melodist, unwearied,\n         For ever piping songs for ever new;\nMore happy love! more happy, happy love!\n         For ever warm and still to be enjoy'd,\n                For ever panting, and for ever young;\nAll breathing human passion far above,\n         That leaves a heart high-sorrowful and cloy'd,\n                A burning forehead, and a parching tongue.\nWho are these coming to the sacrifice?\n         To what green altar, O mysterious priest,\nLead'st thou that heifer lowing at the skies,\n         And all her silken flanks with garlands drest?\nWhat little town by river or sea shore,\n         Or mountain-built with peaceful citadel,\n                Is emptied of this folk, this pious morn?\nAnd, little town, thy streets for evermore\n         Will silent be; and not a soul to tell\n                Why thou art desolate, can e'er return.\nO Attic shape! Fair attitude! with brede\n         Of marble men and maidens overwrought,\nWith forest branches and the trodden weed;\n         Thou, silent form, dost tease us out of thought\nAs doth eternity: Cold Pastoral!\n         When old age shall this generation waste,\n                Thou shalt remain, in midst of other woe\nThan ours, a friend to man, to whom thou say'st,\n         \"Beauty is truth, truth beauty,—that is all\n                Ye know on earth, and all ye need to know.\"",
+    "commentary": "Les six célèbres odes de Keats, écrites en mai 1819, sont des merveilles d'écriture, qui empruntent au sonnet des figures de style et des schémas pour revisiter et enrichir cette forme traditionnelle d'éloge. On y trouve, par exemple, de nombreuses apostrophes, Keats prenant un plaisir évident à explorer les multiples facettes — « épouse du calme », « prêtre mystérieux », « froide pastorale » — qu'il peut donner à l'ancien vase au cœur du poème. Mais cet enthousiasme n'est pas une simple mise en scène : il est révélateur et ajoute de la complexité à son argumentation. Plus il pose de questions et plus son attention s'intensifie, plus l'objet lui-même semble devenir « mystérieux » et « désolé ». Le fait de faire prononcer au vase les célèbres derniers vers du poème atténue quelque peu la tension de celui-ci, mais ses aspects troublants demeurent : même si Keats considère l'art comme un réceptacle intemporel de la vérité, c'est aussi un réceptacle « froid », qui nous rappelle que le « malheur » est peut-être la seule constante de l'histoire."
+  },
+  {
+    "id": "keats-autumn",
+    "title": "To Autumn",
+    "year": 1819,
+    "source": "Poetry Foundation",
+    "text": "Season of mists and mellow fruitfulness,\n   Close bosom-friend of the maturing sun;\nConspiring with him how to load and bless\n   With fruit the vines that round the thatch-eves run;\nTo bend with apples the moss'd cottage-trees,\n   And fill all fruit with ripeness to the core;\n      To swell the gourd, and plump the hazel shells\n   With a sweet kernel; to set budding more,\nAnd still more, later flowers for the bees,\nUntil they think warm days will never cease,\n      For summer has o'er-brimm'd their clammy cells.\nWho hath not seen thee oft amid thy store?\n   Sometimes whoever seeks abroad may find\nThee sitting careless on a granary floor,\n   Thy hair soft-lifted by the winnowing wind;\nOr on a half-reap'd furrow sound asleep,\n   Drows'd with the fume of poppies, while thy hook\n      Spares the next swath and all its twined flowers:\nAnd sometimes like a gleaner thou dost keep\n   Steady thy laden head across a brook;\n   Or by a cyder-press, with patient look,\n      Thou watchest the last oozings hours by hours.\nWhere are the songs of spring? Ay, Where are they?\n   Think not of them, thou hast thy music too,—\nWhile barred clouds bloom the soft-dying day,\n   And touch the stubble-plains with rosy hue;\nThen in a wailful choir the small gnats mourn\n   Among the river sallows, borne aloft\n      Or sinking as the light wind lives or dies;\nAnd full-grown lambs loud bleat from hilly bourn;\n   Hedge-crickets sing; and now with treble soft\n   The red-breast whistles from a garden-croft;\n      And gathering swallows twitter in the skies.",
+    "commentary": "Écrite en septembre 1819, « À l'automne » est la dernière des célèbres odes de Keats. Elle a également marqué, d'une certaine manière, la fin de sa carrière poétique : quelques mois plus tard, il tomba gravement malade, ayant contracté la maladie qui allait l'emporter en un peu plus d'un an. S'il s'agit là d'une sorte de dernier regard, celui-ci n'est pas dénué de mélancolie : dans la dernière strophe, riche en métaphores, le narrateur déplore le temps qui passe et exprime le souhait d'entendre à nouveau les chants du printemps. Mais on perçoit également des signes de satisfaction et la possibilité d'un achèvement proche — « fruit with ripeness to the core » — partout dans ce paysage. Keats se retire peut-être de la vocation qu'il s'était choisie — faisant preuve d'une véritable « capacité négative », le poète lui-même est presque totalement absent de la scène —, mais il peut encore s'attarder dans son départ, trouvant la plénitude dans le peu qu'il reste à faire et une musique propre à cet instant."
+  },
+  {
+    "id": "keats-nightingale",
+    "title": "Ode to a Nightingale",
+    "year": 1820,
+    "source": "Poetry Foundation",
+    "text": "My heart aches, and a drowsy numbness pains\n         My sense, as though of hemlock I had drunk,\nOr emptied some dull opiate to the drains\n         One minute past, and Lethe-wards had sunk:\n'Tis not through envy of thy happy lot,\n         But being too happy in thine happiness,—\n                That thou, light-winged Dryad of the trees\n                        In some melodious plot\n         Of beechen green, and shadows numberless,\n                Singest of summer in full-throated ease.\nO, for a draught of vintage! that hath been\n         Cool'd a long age in the deep-delved earth,\nTasting of Flora and the country green,\n         Dance, and Provençal song, and sunburnt mirth!\nO for a beaker full of the warm South,\n         Full of the true, the blushful Hippocrene,\n                With beaded bubbles winking at the brim,\n                        And purple-stained mouth;\n         That I might drink, and leave the world unseen,\n                And with thee fade away into the forest dim:\nFade far away, dissolve, and quite forget\n         What thou among the leaves hast never known,\nThe weariness, the fever, and the fret\n         Here, where men sit and hear each other groan;\nWhere palsy shakes a few, sad, last gray hairs,\n         Where youth grows pale, and spectre-thin, and dies;\n                Where but to think is to be full of sorrow\n                        And leaden-eyed despairs,\n         Where Beauty cannot keep her lustrous eyes,\n                Or new Love pine at them beyond to-morrow.\nAway! away! for I will fly to thee,\n         Not charioted by Bacchus and his pards,\nBut on the viewless wings of Poesy,\n         Though the dull brain perplexes and retards:\nAlready with thee! tender is the night,\n         And haply the Queen-Moon is on her throne,\n                Cluster'd around by all her starry Fays;\n                        But here there is no light,\n         Save what from heaven is with the breezes blown\n                Through verdurous glooms and winding mossy ways.\nI cannot see what flowers are at my feet,\n         Nor what soft incense hangs upon the boughs,\nBut, in embalmed darkness, guess each sweet\n         Wherewith the seasonable month endows\nThe grass, the thicket, and the fruit-tree wild;\n         White hawthorn, and the pastoral eglantine;\n                Fast fading violets cover'd up in leaves;\n                        And mid-May's eldest child,\n         The coming musk-rose, full of dewy wine,\n                The murmurous haunt of flies on summer eves.\nDarkling I listen; and, for many a time\n         I have been half in love with easeful Death,\nCall'd him soft names in many a mused rhyme,\n         To take into the air my quiet breath;\n                Now more than ever seems it rich to die,\n         To cease upon the midnight with no pain,\n                While thou art pouring forth thy soul abroad\n                        In such an ecstasy!\n         Still wouldst thou sing, and I have ears in vain—\n                   To thy high requiem become a sod.\nThou wast not born for death, immortal Bird!\n         No hungry generations tread thee down;\nThe voice I hear this passing night was heard\n         In ancient days by emperor and clown:\nPerhaps the self-same song that found a path\n         Through the sad heart of Ruth, when, sick for home,\n                She stood in tears amid the alien corn;\n                        The same that oft-times hath\n         Charm'd magic casements, opening on the foam\n                Of perilous seas, in faery lands forlorn.\nForlorn! the very word is like a bell\n         To toll me back from thee to my sole self!\nAdieu! the fancy cannot cheat so well\n         As she is fam'd to do, deceiving elf.\nAdieu! adieu! thy plaintive anthem fades\n         Past the near meadows, over the still stream,\n                Up the hill-side; and now 'tis buried deep\n                        In the next valley-glades:\n         Was it a vision, or a waking dream?\n                Fled is that music:—Do I wake or sleep?",
+    "commentary": "Dans une lettre adressée à ses frères en 1817, Keats décrivait la qualité essentielle du poète comme la « capacité négative », c'est-à-dire une réceptivité face à l'incertitude, au mystère, au doute et à la mutabilité des choses. Ce poème, le plus long de ses odes de 1819, peut être lu comme une exploration de cette capacité, le poète se retrouvant, à un moment donné, « embaumé » dans l'obscurité de la forêt, littéralement incapable de « voir quelles fleurs se trouvent à [ses] pieds ». C'est le rossignol qui le conduit dans cette obscurité, dont le chant semble promettre à la fois l'éternité et l'oubli. Le poème ne se termine ni par l'un ni par l'autre : au contraire, le poète retrouve son « moi seul » et l'oiseau est « enfoui au plus profond / des clairières de la vallée voisine ». Si la musique du rossignol s'est « envolée » à la fin du poème, le chant extatique de Keats lui-même en est le résidu, ses strophes riches en rimes et en assonances, en accents surprenants et en césures dramatiques."
+  },
+  {
+    "id": "keats-bright-star",
+    "title": "Bright star, would I were stedfast as thou art",
+    "year": 1838,
+    "source": "Poetry Foundation",
+    "text": "Bright star, would I were stedfast as thou art—\nNot in lone splendour hung aloft the night\nAnd watching, with eternal lids apart,\nLike nature's patient, sleepless Eremite,\nThe moving waters at their priestlike task\nOf pure ablution round earth's human shores,\nOr gazing on the new soft-fallen mask\nOf snow upon the mountains and the moors—\nNo—yet still stedfast, still unchangeable,\nPillow'd upon my fair love's ripening breast,\nTo feel for ever its soft fall and swell,\nAwake for ever in a sweet unrest,\nStill, still to hear her tender-taken breath,\nAnd so live ever—or else swoon to death.",
+    "commentary": "Joseph Severn, un ami de Keats, considérait ce poème comme le dernier que Keats ait jamais écrit, bien que les spécialistes s'interrogent encore sur la date de sa composition et sur le fait de savoir s'il était destiné à Fanny Brawne, la fiancée de Keats, comme on le suppose souvent. Ce qui est certain, en revanche, c'est sa virtuosité : à travers des images limpides et une seule phrase sinueuse, ce sonnet shakespearien fait le lien entre le cosmique et le domestique, l'amour et la mort, tout en incarnant avec brio la réflexion de Keats sur la relation entre le désir et le temps. En effet, la fougue dont il fait preuve ici laisse une impression durable. Ce poème a la particularité rare d'avoir inspiré un film — le biopic de Jane Campion, *Bright Star* (2009) — et on peut en entendre les échos dans d'autres poèmes aussi variés que le sonnet d'amour XVII de Neruda et la dernière œuvre de James Merrill lui-même, « Christmas Tree »."
+  }
+]},
   {id:'lamb-charles', name:'Charles Lamb', lang:'en', born:1775, died:1834,
    bio:"Essayiste et critique, connu pour ses Essays of Elia et son adaptation de Shakespeare écrite avec sa sœur Mary."},
   {id:'lamb-mary', name:'Mary Lamb', lang:'en', born:1764, died:1847,
@@ -384,6 +443,38 @@ function openAuthorsPanel(filter='all'){
   showPanel();
 }
 
+/* ===================== ŒUVRES : poème + commentaire dans .who ===================== */
+function renderWorksHTML(poet){
+  const works = poet.works || [];
+  if(!works.length){
+    return `
+      <div class="poem-card">
+        <div class="poem-head">
+          <div class="who">Œuvres<small>Poèmes à associer à cet auteur</small></div>
+          <div class="status">texte à intégrer</div>
+        </div>
+      </div>`;
+  }
+  return works.map(w => `
+    <div class="poem-card work-card">
+      <div class="poem-head">
+        <div class="who poem-full">
+          <div class="poem-title-row">
+            <span class="poem-title">${escapeHtml(w.title)}</span>
+            ${w.year ? `<small class="poem-year">${escapeHtml(String(w.year))}</small>` : ''}
+          </div>
+          ${w.subtitle ? `<div class="poem-subtitle">${escapeHtml(w.subtitle)}</div>` : ''}
+          <div class="poem-verse">${escapeHtml(w.text)}</div>
+          <div class="poem-commentary">
+            <span class="poem-commentary-label">Commentaire</span>
+            <p>${escapeHtml(w.commentary)}</p>
+          </div>
+          ${w.source ? `<p class="poem-source">Texte : ${escapeHtml(w.source)}</p>` : ''}
+        </div>
+      </div>
+    </div>`).join('');
+}
+
 /* ===================== VUE : FICHE AUTEUR DÉTAILLÉE ===================== */
 function openAuthorPanel(poetId){
   const poet = poetById[poetId];
@@ -393,12 +484,7 @@ function openAuthorPanel(poetId){
       <div class="panel-eyebrow">${poet.lang==='fr' ? 'Romantisme français' : 'Romantisme britannique'}</div>
       <h2>${poet.name}</h2>
       <p class="gloss">${poet.bio} (${poet.born ?? '?'}–${poet.died ?? '?'})</p>
-      <div class="poem-card">
-        <div class="poem-head">
-          <div class="who">Œuvres<small>Poèmes à associer à cet auteur</small></div>
-          <div class="status">texte à intégrer</div>
-        </div>
-      </div>
+      ${renderWorksHTML(poet)}
       ${renderReviewsHTML(poet.id)}
     `;
     wireReviewForms();
