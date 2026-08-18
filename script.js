@@ -194,6 +194,14 @@ const themes = [
    poetIds:['byron','musset','wordsworth-w','de-quincey','vigny']}
 ];
 
+/* Association thème -> poète -> œuvre précise (id de `works`), pour afficher
+   un poème représentatif plutôt qu'un simple nom de poète sur la page thème.
+   À compléter au fur et à mesure que `works` se remplit pour chaque poète. */
+const themeWorks = {
+  'hellenisme': { 'keats': 'keats-grecian-urn' },
+  'melancolie': { 'keats': 'keats-nightingale' }
+};
+
 /* ===================== DONNÉES : GLOSSAIRE ===================== */
 const glossary = {
   'sublime':{term:'Sublime', def:"Sentiment esthétique mêlant crainte et fascination face à une immensité qui dépasse l'entendement (montagne, tempête, abîme)."},
@@ -372,6 +380,31 @@ function openThemePanel(theme){
     const poemCards = theme.poetIds.map(pid=>{
       const poet = poetById[pid];
       if(!poet) return '';
+
+      const workId = themeWorks[theme.id]?.[pid];
+      const work = workId ? (poet.works || []).find(w => w.id === workId) : null;
+
+      if(work){
+        return `
+          <div class="poem-card" data-poet="${poet.id}">
+            <div class="poem-head">
+              <div class="who">${escapeHtml(work.title)}<small>${escapeHtml(poet.name)} · ${escapeHtml(String(work.year))}</small></div>
+              <div class="status">lire ↴</div>
+            </div>
+            <div class="bio-drawer">
+              <div class="bio-drawer-inner">
+                <div class="poem-verse">${escapeHtml(work.text)}</div>
+                <div class="poem-commentary">
+                  <span class="poem-commentary-label">Commentaire</span>
+                  <p>${escapeHtml(work.commentary)}</p>
+                </div>
+                <p class="gloss" style="margin-top:1.2rem;">${poet.bio}</p>
+                ${renderReviewsHTML(poet.id)}
+              </div>
+            </div>
+          </div>`;
+      }
+
       return `
         <div class="poem-card" data-poet="${poet.id}">
           <div class="poem-head">
@@ -488,6 +521,7 @@ function openAuthorPanel(poetId){
       ${renderReviewsHTML(poet.id)}
     `;
     wireReviewForms();
+    staggerReveal(panelBody, '.poem-card', 70);
   });
   showPanel();
 }

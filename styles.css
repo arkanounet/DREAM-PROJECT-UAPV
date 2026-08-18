@@ -317,7 +317,7 @@ button{ font-family:inherit; }
   transition:max-height .5s var(--ease-out), opacity .4s ease, margin .4s ease;
   opacity:0; margin-top:0;
 }
-.bio-drawer.open{ max-height:900px; opacity:1; margin-top:1.2rem; }
+.bio-drawer.open{ max-height:6000px; opacity:1; margin-top:1.2rem; }
 .bio-drawer-inner{
   background:var(--card-bg); border:1px solid var(--line); border-radius:12px;
   padding:1.4rem 1.6rem;
